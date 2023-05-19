@@ -5920,7 +5920,7 @@ section.banner.s3.s2 .container .swiper-button-prev {
   body {
     min-height: 800px;
     height: 100vh;
-    height: 100dvh;
+    height: 100svh;
 
   }
   .socials-contain {
