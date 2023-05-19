@@ -5919,8 +5919,9 @@ section.banner.s3.s2 .container .swiper-button-prev {
 @media only screen and (max-width: 767px) {
   body {
     min-height: 800px;
-    height: 100vh;
-    max-height: -webkit-fill-available;
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+
   }
   .socials-contain {
     top: 20px;
