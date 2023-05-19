@@ -5919,8 +5919,8 @@ section.banner.s3.s2 .container .swiper-button-prev {
 @media only screen and (max-width: 767px) {
   body {
 
-    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
+    height: 100vh !important; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100) !important;
 
   }
   .socials-contain {
